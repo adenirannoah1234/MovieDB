@@ -1,0 +1,332 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background-color: #10141f;
+}
+
+
+/* navigation bar styles */
+
+nav{
+  background-color:#161d2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 10px;
+  height:   120vh;
+  border-radius: 10px;
+}
+
+.image-circle{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 50%; */
+}
+
+.image-circle img{
+  width: 100%;
+}
+
+nav span{
+  color: #5a698f;
+}
+
+.main-container{
+  display: flex;
+  /* margin-top: 30px; */
+  gap: 2rem;
+  padding: 25px;
+}
+
+.nav-icon2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.colored-icon{
+  color: #bf4044;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* searchbox styles */
+
+.search-div{
+  margin-top: 30px;
+  width: 500px;
+  display: flex;
+   gap: 8px;
+   color: white;
+  /* background-color: white; */
+}
+
+.form-control{
+  all: unset;
+   width: 100%;
+  color: white;
+}
+
+/* trending styles */
+
+
+
+.trending h1{
+  color: white;
+  margin-top: 20px;
+}
+
+.child1{
+  margin-top: 20px;
+  position: relative;
+}
+
+.undimg{
+  width: 90%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  top: 60%;
+  left: 7%;
+  /* font-size: 24px; */
+  color: #c0c4c5;
+  display: flex;
+  gap: 5px;
+  font-size: 10px;
+}
+
+.movie{
+  display: flex;
+  gap: 4px;
+}
+
+.dot{
+  font-size: 5px;
+  margin-top: 2px;
+}
+
+.container1 h3{
+  position: absolute;
+  top: 70%;
+  left: 7%;
+  color: #eef2f6;
+}
+
+/* .trending2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+} */
+
+
+.book{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 40px;
+}
+
+.book-main{
+  display: flex;
+  padding: 30px 30px;
+  gap: 30px;
+}
+
+.colored-icon{
+  cursor: pointer;
+}
+
+.mark{
+  cursor: pointer;
+}
+
+/* .mark.active{
+  background-color: red;
+}
+
+.mark i .active{
+  background-color: #bf4044;
+} */
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+/* .grid2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+} */
+/* recommended */
+
+
+.grid2{
+  display: grid;
+  margin-top:20px;
+  grid-template-columns: repeat(4,1fr); 
+}
+
+.discover{
+  width: 90%;
+  border-radius: 3%;
+  position: relative;
+}
+
+.text2{
+  color: #c0c4c5;
+  display: flex;
+  gap: 5px;
+  font-size: 10px;
+}
+
+.texts{
+  color: #c0c4c5;
+  display: flex;
+  gap: 5px;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.titles{
+  color: #c0c4c5;
+  margin-top: 3px;
+}
+
+.movies{
+  display: flex;
+  gap: 2px;
+}
+
+.container2 h3{
+  color: #bfc0c9;
+}
+
+.recommendedbox h1{
+  color: #eaedf4;
+  margin-top: 30px;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.watch{
+  display: flex;
+}
+
+.discover{
+  cursor: pointer;
+}
+
+.watch-page{
+  display: flex;
+  /* margin-top: 30px; */
+  gap: 30px;
+  padding: 70px 50px;
+}
+
+.genre{
+  display: flex;
+  gap: 1rem;
+  color: #eaedf4;
+}
+
+.genres{
+  display: flex;
+  gap: 1rem;
+  color: #eaedf4;
+  margin-top: 20px;
+
+}
+
+.genlist{
+  list-style: none;
+  color: #eaedf4;
+}
+
+.detailss{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.detsimg{
+  width: 40%;
+}
+
+.child1{
+  margin-top: 50px;
+}
+
+.title{
+  color: #eaedf4;
+}
+
+.overview{
+  color: #eaedf4;
+  margin-top: 20px;
+}
+
+.overview p{
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.bookmark-icon2{
+  position: absolute;
+  top:10px;
+  right: 50px;
+  cursor: pointer;
+
+  color: #eaedf4; ;
+}
+
+.bookmark-icon4{
+  position: absolute;
+  top:10px;
+  right: 50px;
+  cursor: pointer;
+
+  color: #eaedf4;
+  /* background-color: red; */
+}
+
+.bookmark-icon3{
+  position: absolute;
+  top:10px;
+  right: 40px;
+  cursor: pointer;
+
+  color: #eaedf4; 
+}
+
+.position{
+  position: relative;
+}
+
+.child2{
+  position: relative;
+}
